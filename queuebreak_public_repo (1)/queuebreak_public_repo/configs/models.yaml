@@ -1,0 +1,12 @@
+planner:
+  model_id: Qwen/Qwen2.5-0.5B-Instruct
+  device: auto
+  dtype: auto
+writer:
+  model_id: Qwen/Qwen2.5-1.5B-Instruct
+  device: auto
+  dtype: auto
+fallback:
+  model_id: sshleifer/tiny-gpt2
+  device: auto
+  dtype: auto

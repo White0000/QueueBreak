@@ -1,0 +1,22 @@
+suite_name: paper_relaxed
+workloads_dir: data/workloads
+out_dir: runs
+experiments:
+- id: A_underload_mixed
+  module: greenslo.eval.run
+  config: configs/exp_suite_A_underload_mixed_relaxed.yaml
+- id: B_midload_mixed
+  module: greenslo.eval.run
+  config: configs/exp_suite_B_midload_mixed_relaxed.yaml
+- id: C_overload_mixed
+  module: greenslo.eval.run
+  config: configs/exp_suite_C_overload_mixed_relaxed.yaml
+- id: D_underload_eco_only
+  module: greenslo.eval.run
+  config: configs/exp_suite_D_underload_eco_only_relaxed.yaml
+- id: E_midload_fail02
+  module: greenslo.eval.run
+  config: configs/exp_suite_E_midload_mixed_relaxed_fail02.yaml
+- id: F_underload_fast_only
+  module: greenslo.eval.run
+  config: configs/exp_suite_F_underload_fast_only_relaxed.yaml
