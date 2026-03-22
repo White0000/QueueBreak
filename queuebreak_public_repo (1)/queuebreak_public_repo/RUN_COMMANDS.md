@@ -49,15 +49,7 @@ python -m greenslo.eval.run_suite --suite configs/suite_paper_relaxed.yaml --wor
 
 Artifacts are written under `runs/suite_paper_relaxed_<timestamp>/`.
 
-## 7. Generate QueueBreak paper figures
-
-```bash
-python scripts/queuebreak_make_figures.py
-```
-
-Figure outputs are written under `generated_figures/`.
-
-## 8. Useful variations
+## 7. Useful variations
 
 Run without pre-downloaded workloads:
 
@@ -67,7 +59,7 @@ python -m greenslo.eval.run --config configs/exp_smoke.yaml --workloads_dir data
 
 Use the suite runner on a single config by editing the YAML in `configs/` and re-running the matching command.
 
-## 9. Typical output files
+## 8. Typical output files
 
 A run directory usually contains:
 
